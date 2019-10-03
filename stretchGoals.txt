@@ -1,0 +1,10 @@
+(1) Merge conflicts occur when you merge branches that have competing commits.
+        - You resolve merge conflicts by manually editing the conflicted file to select the changes that you would like to keep for the final merge.
+
+(2) - The git 'pull' command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+    - The git 'rebase' command will create new commits and apply them to a specified base.
+    - the git 'merge' command is used to integrate changes from another branch.
+
+(3) - the git 'reset' command will undo local changes to the state of a Git repository.
+    - the git 'revert' command is a safer way to undo operations than 'reset'. Instead of deleting or orphaning commits in the commit history, it will create a new commit that inverses the changes specified.
+    - the git 'clean' command will remove untracked files from the working tree.
